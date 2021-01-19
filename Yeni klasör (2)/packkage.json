@@ -1,0 +1,22 @@
+{
+  "name": "discord-sesli-mesaj-bot",
+  "version": "1.0.0",
+  "description": "Sesli Mesaj komutu!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmirhanSarac/discord-sesli-mesaj-bot"
+  },
+  "author": "emirhan",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "fs": "^0.0.2",
+    "google-tts-api": "0.0.4",
+    "node-opus": "^0.3.1"
+  }
+}
